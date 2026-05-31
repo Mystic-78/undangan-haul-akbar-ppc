@@ -446,18 +446,22 @@ export default function App() {
                     <SpeakerCard
                       role="Ketua Yayasan Pesantren Cipasung"
                       name="Drs. KH. Acep Adang Ruhiat, M.Si"
+                      icon={null}
                     />
                     <SpeakerCard
                       role="Pimpinan Pondok Pesantren Cipasung"
                       name="KH. Ubaidillah Ruhiat, B.A"
+                      icon={null}
                     />
                     <SpeakerCard
                       role="Ketua Umum MPP KAC"
                       name="Dr. KH. Cucun Ahmad Syamsurijal, M.A.P."
+                      icon={null}
                     />
                     <SpeakerCard
                       role="Bupati Kabupaten Tasikmalaya"
                       name="Dr. H. Cecep Nurul Yakin, M.A.P"
+                      icon={null}
                     />
                   </div>
                 </div>
