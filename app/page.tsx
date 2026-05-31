@@ -767,7 +767,7 @@ function RSVPSection() {
                 value={formData.name}
                 onChange={handleChange}
                 className={`w-full px-4 py-3 bg-[#0B1F3A]/80 border ${
-                  errors.name ? 'border-red-500' : 'border-[#D4AF37]/30'
+                  (errors as any).name ? 'border-red-500' : 'border-[#D4AF37]/30'
                 } rounded-xl focus:outline-none focus:border-[#D4AF37] text-white transition-colors`}
                 placeholder="Contoh: Ahmad Fauzi"
               />
