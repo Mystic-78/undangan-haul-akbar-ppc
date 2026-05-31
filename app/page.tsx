@@ -845,7 +845,7 @@ function RSVPSection() {
               </div>
               <textarea
                 name="wish"
-                rows="4"
+                rows={4}
                 required
                 value={formData.wish}
                 onChange={handleChange}
