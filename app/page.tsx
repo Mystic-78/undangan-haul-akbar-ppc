@@ -158,7 +158,7 @@ export default function App() {
         audioRef.current
           .play()
           .then(() => setIsPlaying(true))
-          .catch((err) => {
+          .catch((err:any) => {
             console.warn('Audio tidak dapat diputar:', err);
             setIsPlaying(false);
           });
