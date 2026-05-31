@@ -851,10 +851,10 @@ function RSVPSection() {
                 onChange={handleChange}
                 placeholder="Tuliskan doa terbaik Anda di sini..."
                 className={`w-full px-4 py-3 bg-[#0B1F3A]/80 border ${
-                  errors.wish ? 'border-red-500' : 'border-[#D4AF37]/30'
+                  (errors as any).wish ? 'border-red-500' : 'border-[#D4AF37]/30'
                 } rounded-xl focus:outline-none focus:border-[#D4AF37] text-white transition-colors resize-none`}
               ></textarea>
-              {errors.wish && (
+              {(errors as any).wish && (
                 <p className="text-red-400 text-xs mt-1">{errors.wish}</p>
               )}
               <p className="text-[10px] text-gray-500 mt-2 italic">
