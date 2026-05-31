@@ -535,7 +535,7 @@ export default function App() {
 // ==========================================
 
 // Premium Speaker Card for Rundown
-function SpeakerCard({ role, name, icon }) {
+function SpeakerCard({ role, name, icon }: any) {
   return (
     <div className="glass-card p-5 md:p-6 rounded-2xl relative overflow-hidden group transition-all duration-300 hover:border-[#D4AF37]/70 hover:-translate-y-1">
       {/* Soft hover glow */}
