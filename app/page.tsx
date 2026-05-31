@@ -441,6 +441,7 @@ export default function App() {
                     <SpeakerCard
                       role="Laporan Ketua Pelaksana"
                       name="H. Ahmad Zamakhsyari Sidiq, M.T"
+                      icon={null}
                     />
                     <SpeakerCard
                       role="Ketua Yayasan Pesantren Cipasung"
