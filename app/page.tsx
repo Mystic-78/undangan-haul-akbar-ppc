@@ -855,7 +855,7 @@ function RSVPSection() {
                 } rounded-xl focus:outline-none focus:border-[#D4AF37] text-white transition-colors resize-none`}
               ></textarea>
               {(errors as any).wish && (
-                <p className="text-red-400 text-xs mt-1">{errors.wish}</p>
+                <p className="text-red-400 text-xs mt-1">{(errors as any).wish}</p>
               )}
               <p className="text-[10px] text-gray-500 mt-2 italic">
                 *Ketik ucapan biasa, lalu klik tombol <b>"Rapikan dengan AI"</b>{' '}
