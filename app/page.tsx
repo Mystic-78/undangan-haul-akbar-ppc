@@ -137,7 +137,7 @@ export default function App() {
         .then(() => {
           setIsPlaying(true);
         })
-        .catch((err) => {
+        .catch((err: any) => {
           console.warn('Audio autoplay prevented:', err);
           setIsPlaying(false);
         });
