@@ -119,7 +119,7 @@ export default function App() {
   const [isOpened, setIsOpened] = useState(false);
   const [guestName, setGuestName] = useState('Bapak/Ibu/Saudara/i');
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+  const audioRef = useRef<any>(null);
 
   // Parse URL Parameters
   useEffect(() => {
