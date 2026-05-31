@@ -561,7 +561,7 @@ function SpeakerCard({ role, name, icon }: any) {
 }
 
 // General Timeline Card for non-speaker events
-function TimelineCard({ title }) {
+function TimelineCard({ title }: any) {
   return (
     <div className="glass-card px-5 py-4 rounded-2xl border-l-4 border-l-[#D4AF37] hover:bg-white/5 transition-colors">
       <h4 className="text-lg font-semibold text-white">{title}</h4>
