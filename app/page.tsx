@@ -771,7 +771,7 @@ function RSVPSection() {
                 } rounded-xl focus:outline-none focus:border-[#D4AF37] text-white transition-colors`}
                 placeholder="Contoh: Ahmad Fauzi"
               />
-              {errors.name && (
+              {(errors as any).name && (
                 <p className="text-red-400 text-xs mt-1">{errors.name}</p>
               )}
             </div>
