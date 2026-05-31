@@ -709,7 +709,7 @@ function RSVPSection() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     if (!validateForm()) return;
 
