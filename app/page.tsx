@@ -347,7 +347,7 @@ export default function App() {
               width="100%"
               height="400"
               style={{ border: 0, borderRadius: '1.25rem' }}
-              allowFullScreen=""
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Pondok Pesantren Cipasung"
