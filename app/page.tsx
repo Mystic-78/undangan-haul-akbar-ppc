@@ -700,7 +700,7 @@ function RSVPSection() {
 
   // Simulasi validasi native React Hook Form + Zod
   const validateForm = () => {
-    let newErrors = {};
+    let newErrors: any = {};
     if (formData.name.trim().length < 3)
       newErrors.name = 'Nama minimal 3 karakter';
     if (formData.wish.trim().length < 5)
