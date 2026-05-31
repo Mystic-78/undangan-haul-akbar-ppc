@@ -772,7 +772,7 @@ function RSVPSection() {
                 placeholder="Contoh: Ahmad Fauzi"
               />
               {(errors as any).name && (
-                <p className="text-red-400 text-xs mt-1">{errors.name}</p>
+                <p className="text-red-400 text-xs mt-1">{(errors as any).name}</p>
               )}
             </div>
 
