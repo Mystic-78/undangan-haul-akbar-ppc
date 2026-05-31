@@ -650,7 +650,7 @@ function RSVPSection() {
   const [errors, setErrors] = useState({});
 
   // Form Input Handler
-  const handleChange = (e) =>
+  const handleChange = (e: any) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
   // Gemini API call logic for AI Wish Formatter
